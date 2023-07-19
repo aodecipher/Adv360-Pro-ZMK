@@ -1,4 +1,3 @@
-// kp-c
 macro_left_wsp: macro_left_wsp {
 label = "macro_left_wsp";
 compatible = "zmk,behavior-macro";
