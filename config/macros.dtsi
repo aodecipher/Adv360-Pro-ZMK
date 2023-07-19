@@ -1,5 +1,5 @@
-left_wsp: left_wsp {
-    label = "left_wsp";
+macro_left_wsp: macro_left_wsp {
+    label = "macro_left_wsp";
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings
@@ -9,8 +9,8 @@ left_wsp: left_wsp {
         ;
 };
 
-tmux: tmux {
-    label = "tmux";
+macro_tmux: macro_tmux {
+    label = "macro_tmux";
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings
@@ -20,8 +20,8 @@ tmux: tmux {
         ;
 };
 
-del_word: del_word {
-    label = "del_word";
+macro_del_word: macro_del_word {
+    label = "macro_del_word";
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings
