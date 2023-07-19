@@ -1,4 +1,3 @@
-// kp-c
 left_wsp: left_wsp {
     label = "left_wsp";
     compatible = "zmk,behavior-macro";
@@ -10,7 +9,6 @@ left_wsp: left_wsp {
         ;
 };
 
-// F5
 tmux: tmux {
     label = "tmux";
     compatible = "zmk,behavior-macro";
@@ -22,7 +20,6 @@ tmux: tmux {
         ;
 };
 
-// kp-w
 del_word: del_word {
     label = "del_word";
     compatible = "zmk,behavior-macro";
