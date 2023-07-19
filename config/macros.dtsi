@@ -1,3 +1,15 @@
+// kp-c
+left_wsp: left_wsp {
+    label = "left_wsp";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings
+        = <&macro_press &kp RSHIFT &kp RWIN>
+        , <&macro_tap &kp LEFT>
+        , <&macro_release &kp RSHIFT &kp RWIN>
+        ;
+};
+
 // F5
 tmux: tmux {
     label = "tmux";
